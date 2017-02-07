@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 22, 2016, 11:50:17 AM
+    Author     : Yuki
+*/
+
+.buttonLoad {
+    -fx-background-color: #A0522D;
+    -fx-text-fill: white;
+    -fx-font-family: "System";
+    -fx-font-size: 13px;
+}
+.buttonLoad:hover{
+   -fx-background-color: #BA5F34;
+}
+.buttonLoad:pressed{
+    -fx-background-color: #703920;
+}
+
+#tabPane .tab-header-background{
+    -fx-background-color: #006633;
+}
+
+#tabZone{
+    -fx-background-color: #A0522D;
+    -fx-fill: white;
+    -fx-margin: 0;
+}
+
+#tabZone:hover{
+   -fx-background-color: #BA5F34;
+}
+#tabZone:selected{
+    -fx-background-color: #703920;
+}
+
+.tab-label{
+    -fx-text-fill: white;
+}
+
+#gridTop{
+    -fx-background-image: url("background.png");
+    -fx-background-repeat: none;
+    -fx-background-size: cover;
+}
+
+.headers-region .tab:top{
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: #703920;
+    -fx-border: 1;
+}
+
+.tab-header-area{
+    -fx-padding: 0;
+}
+
+.labelInfo{
+    -fx-text-fill: #703920;
+}
+
+.separator:horizontal .line{
+    -fx-border-color: #006633;
+}
+
+
+.separator:vertical .line{
+    -fx-border-color: #006633;
+    -fx-border-width: 1;
+}
+
+#tabPane{
+    -fx-background-image: url("backtabs.png");
+    -fx-background-repeat: none;
+    -fx-background-size: cover;
+}
+
+.radio-button .text{
+    -fx-fill: #703920;
+}
+
+#progress .bar{
+    -fx-background-color: #BA5F34;
+}
